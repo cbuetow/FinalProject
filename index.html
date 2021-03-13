@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Alien Dice</h1>
+    <p id="scoreHumans"></p>
+    <p id="scoreCows"></p>
+    <p id="scoreChickens"></p>
+    <p id="rollsRemaining"><span id="remainingRolls"></span></p>
+    <p id="pointsScored"></p>
+    <p id="gameOver"></p>
+
+    <a><span id="chicken" class="images"><img src="img/chicken.png" height="75" width="75" alt="Chicken"/></span></a>
+    <a><span id="cow" class="images"><img src="img/cow.png" height="75" width="75" alt="Cow"/></span></a>
+    <a><span id="human" class="images"><img src="img/human.png" height="75" width="75" alt="Human"/></span></a>
+    <a><span id="raygun" class="images"><img src="img/raygun.png" height="75" width="75" alt="Raygun"/></span></a>
+    <a><span id="tank" class="images"><img src="img/tank.png" height="75" width="75" alt="Tank"/></span></a> <br><br>
+
+    <button id="reroll">Reroll</button>
+    <button id="end-turn">End Turn</button>
+    <button id="start-turn">Start Turn</button>
+    <button id="score-humans" class="score">Score Humans</button>
+    <button id="score-cows" class="score">Score Cows</button>
+    <button id="score-chickens" class="score">Score Chickens</button>
+
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
